@@ -1,0 +1,1122 @@
+@media (min-width: 320px) and (max-width:575px) {
+
+    /* ====common css start=== */
+    h1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .title {
+        font-size: 22px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .title h3 {
+        margin: 15px auto;
+        font-weight: 600;
+    }
+
+    .title h3::after {
+        width: 46%;
+        height: 2px;
+        margin: 20px auto;
+        left: 27%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    strong {
+        font-weight: 400 !important;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    ul li {
+        font-size: 12px;
+    }
+
+    .accordon_list_style_num {
+        padding-left: 0;
+    }
+
+    .accordion_item_custom {
+        width: 300px;
+        text-align: center;
+    }
+
+    .accordion-button {
+        width: 300px;
+        display: block;
+        text-align: center;
+    }
+
+    button a {
+        font-size: 14px !important;
+        font-weight: 500;
+    }
+
+    /* ====common css end=== */
+    /* =======header responsove start=== */
+    .header_left_item {
+        text-align: center;
+        width: 24%;
+    }
+
+    .header_left_item .header_mail a {
+        margin: 5px auto;
+        display: block;
+    }
+
+    /* =======header responsove end=== */
+    /* =======nav responsove start=== */
+    #navber_part {
+        width: 100%;
+    }
+
+    .gateway_logo img {
+        width: 50%;
+    }
+
+    .logo_width_bg {
+        padding: 5px 0px;
+        border-radius: 10px;
+    }
+
+    .header_mail {
+        display: block;
+    }
+
+    .gateway_logo {
+        width: 60px;
+    }
+
+    .gateway_logo img {
+        width: 60%;
+    }
+
+    .nav_list_font {
+        padding: 15px 0 !important;
+    }
+
+    .nav_list_font a {
+        font-size: 12px;
+        padding: 5px 0;
+        margin-left: 0;
+    }
+
+    /* =======nav responsove end=== */
+    /* =======banner part responsove start=== */
+    #banner_part .prev {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        line-height: 35px;
+        font-size: 18px;
+        top: 80%;
+        left: 100px;
+    }
+
+    #banner_part .next {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        line-height: 35px;
+        font-size: 18px;
+        top: 80%;
+        right: 100px;
+    }
+
+    .banner_slider_item1 {
+        background: url('../images/banner_pic1.jpg') no-repeat center;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .banner_slider_item2 {
+        background: url('../images/banner_pic2.jpg') no-repeat center;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .banner_slider_item3 {
+        background: url('../images/banner_pic3.jpg') no-repeat center;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .banner_slide_contents .btn {
+        margin-top: 15px !important;
+    }
+
+    /* =======banner part responsove end=== */
+    /* =======every step part responsove start=== */
+    #every_step_part {
+        padding: 30px 0;
+    }
+
+    .every_step_head_font {
+        width: 320px;
+        font-size: 12px;
+        margin: 0 !important;
+    }
+
+    .every_step_part .title {
+        margin-bottom: 0px !important;
+    }
+
+    .every_step_col_width {
+        width: 100%;
+    }
+
+    .every_step_item {
+        margin-top: 30px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .every_step_item h4 {
+        width: 100%;
+    }
+
+    .every_step_img_item {
+        height: 200px;
+    }
+
+    .every_step_img_item_single5 img {
+        width: 107% !important;
+    }
+
+    .every_individual_width {
+        width: auto !important;
+    }
+
+    .syotimer-cell {
+        width: 60px;
+    }
+
+    .syotimer-cell__value {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    .overseas_banners_item {
+        height: 270px;
+    }
+
+    .schooling_visa_banner {
+        height: 270px;
+    }
+
+    .ielts_banner {
+        height: 270px;
+    }
+
+    /* =======every step part responsove end=== */
+    /* =======upcoming part responsove start=== */
+    .travel_img {
+        margin-top: 15px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .travel_img img {
+        width: 23%;
+    }
+
+    .upcoming_btn_item {
+        margin-top: 10px;
+        text-align: center !important;
+        width: 90px !important;
+    }
+
+    .upcoming_head_font {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .upcoming_event_item p {
+        font-size: 12px;
+    }
+
+    .sub_upcoming_event_item {
+        margin-bottom: 15px;
+    }
+
+    .upcoming_marg_resp {
+        margin-top: 30px !important;
+    }
+
+    .upcoming_btn_item button {
+        background: purple;
+        padding: 0 10px !important;
+    }
+
+    .upcoming_event_item {
+        padding: 40px 20px !important;
+        background: #f2f4e9;
+        width: 300px;
+    }
+
+    /* =======upcoming part responsove end=== */
+    /* =======meet university part responsove start=== */
+    .roadmap_icon i {
+        font-size: 18px !important;
+    }
+
+    .sub_upcoming_event_item {
+        text-align: center !important;
+        width: 23%;
+    }
+
+    .width_resp .sub_upcoming_event_item a {
+        font-size: 16px !important;
+    }
+
+    .sub_upcoming_event_item strong {
+        font-size: 14px;
+    }
+
+    /* =======meet university part responsove end=== */
+    /* =======coming_counter part responsove start=== */
+    #coming_counter_part {
+        padding-bottom: 60px;
+        margin-top: 0 !important;
+    }
+
+    .coming_item_bg {
+        padding: 15px;
+        margin-left: 3px;
+        width: 22.8%;
+        height: auto;
+        text-align: center;
+    }
+
+    #upcoming_event_part a {
+        font-size: 10px !important;
+        margin: 10px 0 !important;
+    }
+
+    .upcoming_btn_item {
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+
+    /* =======coming_counter part responsove end=== */
+    /* =======brands part responsove start=== */
+    .indivi_height_img {
+        height: 85px;
+    }
+
+    .brands_marg_resp {
+        margin-left: 13%;
+    }
+
+    .marg_team_resp {
+        margin-top: 20px !important;
+    }
+
+    .team_round_item {
+        margin-bottom: 0px;
+    }
+
+    /* =======brands part responsove end=== */
+    /* =====team part css start======= */
+    #team_part {
+        margin-bottom: 30px;
+    }
+
+    .team_text_item {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .section-title {
+        text-align: center !important;
+        width: 300px;
+        padding-bottom: 15px !important;
+        margin: 0 !important;
+    }
+
+    /* =====team part css end======= */
+    /* =====team part css end======= */
+    #coming_counter_part {
+        padding-bottom: 60px;
+    }
+
+    .coming_study_img:hover {
+        width: 96%;
+    }
+
+    .coming_study_img {
+        height: 150px;
+    }
+
+    .coming_width_over {
+        width: 31.5%;
+        margin: 0 15px;
+    }
+
+    .coming_text {
+        width: 31.5%;
+        height: 150px;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .upcoming_text_width {
+        padding-left: 50px;
+        text-align: center;
+    }
+
+    .img img {
+        width: 300px;
+    }
+
+    /* =====team part css end======= */
+    /* =====accordion part css start======= */
+    .accordon_list_style {
+        list-style-type: none;
+    }
+
+    .accordon_list_style_num {
+        list-style-type: none !important;
+    }
+
+    .accordon_list_style_num li {
+        margin: 5px 0;
+    }
+
+    .team_width_resp {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .team_width_resp h5 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    /* =====accordion part css end======= */
+    /* =====incorporation part css start======= */
+    #incorporatation_part {
+        padding: 30px 0;
+    }
+
+    .incorpo_item {
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0;
+        cursor: pointer;
+        width: 200px;
+    }
+
+    #incorporatation_part {
+        padding: 30px 0;
+    }
+
+    /* =====incorporation part css end======= */
+    /* =====gateway location part css start======= */
+    #gateway_location_part {
+        padding: 0 10px;
+    }
+
+    /* =====gateway location part css end======= */
+    /* =====contact part css start======= */
+    #contact_part {
+        padding: 15px 0px;
+        width: auto;
+        text-align: center;
+    }
+
+    .contact_item {
+        margin-bottom: 5px;
+        width: 70%;
+    }
+
+    .contact_list_style li a {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .conatct_location a {
+        color: #fff;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .conatct_location i {
+        margin-right: 5px;
+    }
+
+    .contact_item {
+        margin-bottom: 10px;
+        width: 23%;
+    }
+
+    .gate_location_footer {
+        width: 23%;
+    }
+
+    #footer_part p {
+        font-size: 12px;
+    }
+
+    .contact_item_padd {
+        padding: 10px 0 !important;
+    }
+
+    /* =====contact part css end======= */
+    /* =====appointment index part css start======= */
+    #appontment_book_part {
+        padding: 30px 0 !important;
+    }
+
+    .Centennial_video_bt_item .img img {
+        width: 300px;
+        margin-top: 15px;
+    }
+
+    .accordon_list_style {
+        padding-left: 0;
+    }
+
+    .resp_width_conta {
+        width: auto;
+    }
+
+    .resp_padd_col_appoint form {
+        padding: 15px !important;
+    }
+
+    .Centennial_univer_logo_item .img {
+        width: 100px !important;
+    }
+
+    #centennial_univer_part p {
+        width: 300px;
+        text-align: center;
+    }
+
+    .Centennial_fotter_details {
+        text-align: center;
+        width: 300px;
+    }
+
+    /* =====appointment index part css end======= */
+
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+
+    /* ====common css start=== */
+    h1 {
+        font-size: 22px;
+    }
+
+    /* ====common css end=== */
+    /* =======nav responsove start=== */
+    .header_left_item {
+        text-align: center;
+    }
+
+    .gateway_logo {
+        width: 80px;
+    }
+
+    .gateway_logo img {
+        width: 50%;
+    }
+
+    /* =======nav responsove end=== */
+    /* =======banner part responsove start=== */
+    .banner_slide_contents button a {
+        font-size: 16px !important;
+    }
+
+    .banner_overlay {
+        padding: 50px 0;
+    }
+
+    .banner_slider_item1 {
+        background: url('../images/banner_pic1.jpg') no-repeat center;
+        background-size: cover;
+        height: 370px;
+    }
+
+    .banner_slider_item2 {
+        background: url('../images/banner_pic2.jpg') no-repeat center;
+        background-size: cover;
+        height: 370px;
+    }
+
+    .banner_slider_item3 {
+        background: url('../images/banner_pic3.jpg') no-repeat center;
+        background-size: cover;
+        height: 370px;
+    }
+
+    .img img {
+        width: 510px;
+    }
+
+    /* =======banner part responsove end=== */
+    /*======overseas study start=== */
+    .overseas_banners_item {
+        height: 370px;
+    }
+
+    .schooling_visa_banner {
+        height: 370px;
+    }
+
+    .ielts_banner {
+        height: 370px;
+    }
+
+    /*======overseas study end=== */
+    /* =======upcoming part responsove start=== */
+    .coming_width_over {
+        width: 100%;
+    }
+
+    .upcoming_event_item {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .sub_upcoming_event_item {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+    .coming_smoth_for_over:hover .coming_width_over {
+        width: 100%;
+    }
+
+    .coming_text {
+        width: 100%;
+        height: 200px;
+    }
+
+    .coming_item_bg {
+        padding: 30px;
+        height: auto;
+        text-align: center;
+    }
+
+    .res_width_coming_item {
+        padding: 0;
+    }
+
+    .upcoming_marg_resp {
+        margin-top: 30px !important;
+    }
+
+    /* =======upcoming part responsove end=== */
+    /* =======travel part responsove start=== */
+    .travel_img img {
+        width: 100%;
+    }
+
+    /* =======travel part responsove end=== */
+    /* =======every step part responsove start=== */
+    #every_step_part {
+        padding: 50px 0;
+    }
+
+    .every_step_col_width {
+        width: 100%;
+    }
+
+    .every_step_item h4 {
+        width: 70%;
+    }
+
+    .every_step_item img {
+        width: auto !important;
+        height: 100%;
+    }
+
+    .every_step_img_item_single2 img {
+        top: 0%;
+        left: 4%;
+    }
+
+    .every_step_img_item_single3 img {
+        top: 0%;
+        left: 15%;
+    }
+
+    .every_step_img_item_single4 img {
+        left: 7%;
+        top: 0;
+    }
+
+    .every_step_img_item_single5 img {
+        top: -3.5%;
+        left: 15%;
+    }
+
+    .every_individual_width {
+        width: 65% !important;
+    }
+
+    .every_step_item_single img {
+        top: 50.6%;
+    }
+
+    /* =======every step part responsove end=== */
+    /* =======coming_counter part responsove start=== */
+    #coming_counter_part {
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+    .team_text_item {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .marg_team_resp {
+        margin-top: 0 !important;
+    }
+
+    .indivi_height_img {
+        height: 83px;
+    }
+
+    /* =======coming_counter part responsove end=== */
+    /* =======travel_img part responsove start=== */
+    .travel_img {
+        width: 100%;
+    }
+
+    /* =======travel_img part responsove end=== */
+
+    /* =====contact part css start======= */
+    .contact_item {
+        margin-bottom: 10px;
+        width: auto;
+        text-align: center;
+    }
+
+    #contact_part {
+        padding: 30px 0;
+    }
+
+    .contact_list_style li a {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .conatct_location a {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    /* =====contact part css end======= */
+
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+
+    /* =====banner part start==== */
+    .banner_slider_item1 {
+        background: url('../images/banner_pic1.jpg') no-repeat center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .banner_slider_item2 {
+        background: url('../images/banner_pic2.jpg') no-repeat center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .banner_slider_item3 {
+        background: url('../images/banner_pic3.jpg') no-repeat center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    /* =====banner part end==== */
+    /*======overseas study start=== */
+    .overseas_banners_item {
+        height: 400px;
+    }
+
+    .schooling_visa_banner {
+        height: 400px;
+    }
+
+    .ielts_banner {
+        height: 400px;
+    }
+
+    .indivi_height_img {
+        height: 73px;
+    }
+
+    .every_step_contents_item {
+        text-align: start;
+        padding: 25px 15px;
+    }
+
+    .every_step_img_item {
+        height: 224px;
+        width: 100%;
+    }
+
+    .corpo_img img {
+        height: 100px;
+    }
+
+    /*======overseas study end=== */
+    /* =======roadmap start===== */
+    .img img {
+        width: 700px;
+    }
+
+    .travel_img {
+        width: 100%;
+    }
+
+    .travel_img img {
+        width: 100%;
+    }
+
+    .team_text_item {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .section-title {
+        margin-top: 15px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .team_round_item {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .text_right_res {
+        text-align: right;
+    }
+
+    .marg_team_resp {
+        margin-top: 40px !important;
+    }
+
+    .coming_width_over {
+        width: 100%;
+    }
+
+    .coming_smoth_for_over:hover .coming_width_over {
+        width: 100%;
+    }
+
+    .coming_text {
+        width: 100%;
+        height: auto;
+    }
+
+    .res_width_coming_item {
+        margin-top: 30px;
+    }
+
+    .coming_item_bg {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .contact_item {
+        width: auto;
+        text-align: center;
+    }
+
+    .every_step_col_width {
+        width: 50%;
+    }
+
+    .res_step_item_width2 {
+        padding: 25px 16px;
+        height: 370px;
+    }
+
+    .res_step_item_width {
+        height: 420px;
+    }
+
+    /* =======roadmap end===== */
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+
+    /* =====banner part start==== */
+    .banner_slider_item1 {
+        background: url('../images/banner_pic1.jpg') no-repeat center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .banner_slider_item2 {
+        background: url('../images/banner_pic2.jpg') no-repeat center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .banner_slider_item3 {
+        background: url('../images/banner_pic3.jpg') no-repeat center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    /* =====banner part end==== */
+    /*======overseas study start=== */
+    .overseas_banners_item {
+        height: 400px;
+    }
+
+    .schooling_visa_banner {
+        height: 400px;
+    }
+
+    .ielts_banner {
+        height: 400px;
+    }
+
+    .indivi_height_img {
+        height: 73px;
+    }
+
+    .every_step_contents_item {
+        text-align: start;
+        padding: 25px 15px;
+    }
+
+    .every_step_img_item {
+        height: 303px;
+        width: 100%;
+    }
+
+    .corpo_img img {
+        height: 100px;
+    }
+
+    /*======overseas study end=== */
+    /* =======roadmap start===== */
+    .head_width_resp {
+        width: auto;
+    }
+
+    .travel_img img {
+        width: 100%;
+    }
+
+    .team_text_item {
+        margin-top: 70px;
+        text-align: left;
+    }
+
+    .text_right_res {
+        text-align: right;
+    }
+
+    .section-title {
+        margin-top: 15px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .team_round_item {
+        margin-top: 40px !important;
+    }
+
+    .marg_team_resp {
+        margin-top: 40px !important;
+    }
+
+    .coming_width_over {
+        width: 32%;
+    }
+
+    .coming_smoth_for_over:hover .coming_width_over {
+        width: 33%;
+    }
+
+    .coming_text {
+        width: 100%;
+    }
+
+    .coming_item_bg {
+        padding: 18px 30px;
+    }
+
+    .contact_item {
+        width: auto;
+        text-align: center;
+    }
+
+    #every_step_part {
+        padding: 50px 0;
+    }
+
+    .every_step_item {
+        margin-top: 30px;
+    }
+
+    .every_step_col_width {
+        width: 50%;
+    }
+
+    .every_step_contents_item {
+        height: 330px;
+    }
+
+    .syotimer-cell {
+        margin: 0px 5px;
+        width: 70px;
+    }
+
+    /* =======roadmap end===== */
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /* =====banner part start==== */
+    .banner_slider_item1 {
+        background: url('../images/banner_pic1.jpg') no-repeat center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .banner_slider_item2 {
+        background: url('../images/banner_pic2.jpg') no-repeat center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .banner_slider_item3 {
+        background: url('../images/banner_pic3.jpg') no-repeat center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    /* =====banner part end==== */
+    /*======overseas study start=== */
+    .overseas_banners_item {
+        height: 400px;
+    }
+
+    .schooling_visa_banner {
+        height: 400px;
+    }
+
+    .ielts_banner {
+        height: 400px;
+    }
+
+    .indivi_height_img {
+        height: 73px;
+    }
+
+    .every_step_contents_item {
+        padding: 25px 20px;
+        text-align: start;
+    }
+
+    .every_step_img_item_single5 img {
+        top: -12.5%;
+    }
+
+    .every_step_contents_last_item_height {
+        height: 430px;
+    }
+
+    .every_step_img_item {
+        height: 212px;
+    }
+    /*.every_step_img_item {*/
+    /*    height: 212px;*/
+    /*}*/
+    .every_step_item {
+        margin-top: 40px;
+    }
+
+    #every_step_part {
+        padding: 60px 0;
+    }
+
+    .corpo_img img {
+        height: 100px;
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width:1800px) {
+
+    /* =====banner part start==== */
+    .banner_slider_item1 {
+        background: url('../images/banner_pic1.jpg') no-repeat center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .banner_slider_item2 {
+        background: url('../images/banner_pic2.jpg') no-repeat center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .banner_slider_item3 {
+        background: url('../images/banner_pic3.jpg') no-repeat center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    /* =====banner part end==== */
+    /*======overseas study start=== */
+    .overseas_banners_item {
+        height: 500px;
+    }
+
+    .schooling_visa_banner {
+        height: 500px;
+    }
+
+    .ielts_banner {
+        height: 500px;
+    }
+
+    /* =======roadmap start===== */
+    .travel_img {
+        width: 100%;
+    }
+
+    .btm_border_contact {
+        width: 80%;
+    }
+
+    .gateway_logo {
+        width: 100px;
+    }
+}
